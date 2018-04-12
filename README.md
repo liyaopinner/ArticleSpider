@@ -3,7 +3,7 @@
 
 目录结构：
   
-  ArticleSpider: 爬虫的源码
-  LcvSearch： 搜索系统源码
-  LcvSearch前端源码： 搜索系统前端源码
-  ScrapyRedisTest： 基于scrapy和redis的分布式爬虫
+    ArticleSpider: 爬虫的源码
+    LcvSearch： 搜索系统源码
+    LcvSearch前端源码： 搜索系统前端源码
+    ScrapyRedisTest： 基于scrapy和redis的分布式爬虫
