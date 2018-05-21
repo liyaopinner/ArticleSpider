@@ -81,7 +81,7 @@ html{*overflow:auto;}
 .resultArea .searchInResult .inResult{position:absolute;right:-190px;top:8px;font-size:14px;text-decoration:underline;}
 .resultArea .searchInResult .searchButton{left:417px;}
 /*历史搜索区域*/
-.historyArea{float:right;margin-right:-212px;width:212px;}
+.historyArea{float:right;margin-right:-216px;width:212px;}
 .historyArea h6{margin-bottom:10px;font-weight:bold;}
 .historyArea .historyList{margin-bottom:20px;}
 .historyArea .historyList li{margin-bottom:5px;}
