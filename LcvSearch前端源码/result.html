@@ -563,16 +563,16 @@ Gnome Terminal 是最受欢迎的终端仿真器之一，
 		}
         
     });
-	var key_words = "java"
+	var key_words = "{{key_words}}"
 	//分页
-	$(".pagination").pagination(45, {
-		current_page :0, //当前页码
+	$(".pagination").pagination({{ total_nums }}, {
+		current_page :{{ page|add:'-1' }}, //当前页码
 		items_per_page :10,
 		display_msg :true,
 		callback :pageselectCallback
 	});
 	function pageselectCallback(page_id, jq) {
-		window.location.href=search_url+'?q='+key_words+'&p='+page_id
+		window.location.href=search_url+'?q='+key_words+'&p='+(page_id+1)
 	}
 	
 	setHeight();
