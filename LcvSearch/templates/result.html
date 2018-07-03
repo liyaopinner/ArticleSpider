@@ -170,7 +170,7 @@
 		}
         
     });
-	var key_words = "java"
+	var key_words = "{{key_words}}"
 	//分页
 	$(".pagination").pagination({{ total_nums }}, {
 		current_page :{{ page|add:'-1' }}, //当前页码
@@ -179,7 +179,7 @@
 		callback :pageselectCallback
 	});
 	function pageselectCallback(page_id, jq) {
-		window.location.href=search_url+'?q='+key_words+'&p='+page_id
+		window.location.href=search_url+'?q='+key_words+'&p='+(page_id+1)
 	}
 	
 	setHeight();
